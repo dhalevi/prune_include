@@ -7,18 +7,17 @@ A brute force approach to find and remove all redundanr `#include` directives in
 I had to maintain a large, full of history code base.
 The compilation took forever...
 
-One of the reasons was that over time, more an more #include directives
-were added to the coede (in headers as well as source files) and these
-caused:
+One of the reasons was that over time, more an more #include directives  
+were added to the coede (in headers as well as source files) and these caused:
 
 1. Longer compile time per file
 2. Way too much dependency in the project
 
 Solution: remove un-needed #include from the project.
  
-Looking for previous such solutions, I stubled upon this thread:
-https://stackoverflow.com/questions/614794/detecting-superfluous-includes-in-c-c
-And from there:
+Looking for previous such solutions, I stubled upon this thread:  
+https://stackoverflow.com/questions/614794/detecting-superfluous-includes-in-c-c  
+And from there:  
 https://github.com/cognitivewaves/misc/tree/master/check-header-includes
 
 It did a great job, but was not easy to set-up.
