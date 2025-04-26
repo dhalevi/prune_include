@@ -4,11 +4,11 @@ A brute force approach to find and remove all redundant `#include` directives in
 
 ## Inspiration
 
-I had to maintain a large, full of history code base.
+I had to maintain a large, legacy and obscure code base.
 The compilation took forever...
 
 One of the reasons was that over time, more an more #include directives  
-were added to the coede (in headers as well as source files) and these caused:
+were added to the code, (in headers as well as source files) and these caused:
 
 1. Longer compile time per file
 2. Way too much dependency in the project
