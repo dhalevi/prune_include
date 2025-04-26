@@ -1,6 +1,6 @@
 # prune_include
 
-A brute force approach to find and remove all redundanr `#include` directives in a project.  
+A brute force approach to find and remove all redundant `#include` directives in a project.  
 
 ## Inspiration
 
